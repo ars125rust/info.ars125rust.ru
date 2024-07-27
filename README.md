@@ -1,1 +1,1 @@
-# info.ru
+curl info.ars125rust.ru
