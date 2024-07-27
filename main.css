@@ -1,0 +1,30 @@
+#first {
+
+    color: #3c3e40;
+    background: #7f9ab3 url(2024-06-28_21.11.02.png) no-repeat center top ;
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    height: 2000px;
+}
+
+.hhh {
+    color: orange;
+    text-align: center;
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Playwrite GB S", cursive;
+}
+
+.yyy {
+    color: orange;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Playwrite GB S", cursive;
+}
