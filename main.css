@@ -25,27 +25,10 @@ html, body {
   
 }
 
-text {
-  text-align: center 
-}
-
 ol {
   display: block;
   position: absolute;
   text-align: center 
-}
-
-a {
-  text-decoration: none;
-  color: #fff090;
-}
-
-li {
-  color: #ffffff;
-}
-
-.arrow i {
-  display: none;
 }
 
 .arrow {
@@ -58,14 +41,6 @@ li {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.2);
 }
-
-.arrow:hover i { 
-  display: block;
-  position: absolute;
-  top: 0.50em; 
-  left: -6em;
-}
-
 
 h1::first-letter, h1 span {
   -webkit-animation: blink 2s linear infinite;
