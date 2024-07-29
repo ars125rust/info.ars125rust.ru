@@ -21,11 +21,19 @@ html, body {
   display: block;
   position: absolute;
   color: white;
-  top: 35%;
-  left: 33%;
+  text-align: center;
   
 }
 
+text {
+  text-align: center 
+}
+
+ol {
+  display: block;
+  position: absolute;
+  text-align: center 
+}
 
 a {
   text-decoration: none;
