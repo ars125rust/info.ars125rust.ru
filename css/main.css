@@ -35,7 +35,7 @@ ol {
   text-align: center 
 }
 
-.arrow {
+.arrow, .textt {
   position:relative;
 	display: block;
   color: #ffffff;
@@ -59,4 +59,30 @@ h1::first-letter, h1 span {
   50% { color: rgb(255, 255, 255); }
   51% { color: rgba(34, 34, 34, 0); }
   100% { color: rgba(34, 34, 34, 0); }
+}
+
+input {
+  border: none; /* Убираем стандартную рамку */
+  outline: none; /* Убираем стандартное выделение фокуса */
+
+  color: white; /* Меняем цвет текста на белый */
+  font-family: 'Press Start 2P';
+  padding: 20px; /* Добавляем внутренний отступ для удобства ввода */
+  background-color: transparent; /* Сделаем фон прозрачным */
+}
+
+button {
+
+  background-color: transparent; /* Прозрачный фон */
+  width: 200px; /* Ширина кнопки */
+  height: 50px; /* Высота кнопки */
+  color: white; /* Белый текст */
+  font-family: 'Press Start 2P'; /* Специальный шрифт */
+  border: none; /* Убираем стандартные границы */
+  cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+button:hover {
+  opacity: 0.7; /* Немного уменьшаем прозрачность при наведении */
+  background-color: rgba(255, 255, 255, 0.2);
 }
